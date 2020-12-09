@@ -87,7 +87,7 @@ spec:
     #ipFamily: "IPv6"
   # enable the crash collector for ceph daemon crash collection
   crashCollector:
-    disable: false
+    disable: true
   # automate [data cleanup process](https://github.com/rook/rook/blob/master/Documentation/ceph-teardown.md#delete-the-data-on-hosts) in cluster destruction.
   cleanupPolicy:
     # Since cluster cleanup is destructive to data, confirmation is required.
